@@ -7,7 +7,7 @@ server:
   port: 7001 #注册中心占用7001端口
 
 spring:
-  profiles: dev
+  profile: dev
   application:
     name: microservicecloud-config-eureka-client
 
@@ -24,7 +24,7 @@ server:
   port: 7001 #注册中心占用7001端口
 
 spring:
-  profiles: test
+  profile: test
   application:
     name: microservicecloud-config-eureka-client
 

@@ -6,7 +6,7 @@ spring:
 server:
   port: 8001
 spring:
-  profiles: dev
+  profile: dev
   application:
     name: microservicecloud-config-dept-client                       #当前数据源操作类型
   datasource:
@@ -43,7 +43,7 @@ info:
 server:
   port: 8001
 spring:
-  profiles: test
+  profile: test
   application:
     name: microservicecloud-config-dept-client                       #当前数据源操作类型
   datasource:
